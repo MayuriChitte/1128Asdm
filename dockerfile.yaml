@@ -1,0 +1,8 @@
+FROM node:7
+WORKDIR /1128asdm
+RUN npm install
+COPY .
+CMD node <jsfile>
+EXPOSE ubuntu@ip-172-31-40-63:~/1128Asdm$ node index.js
+
+
