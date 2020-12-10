@@ -1,0 +1,5 @@
+FROM node 7
+WORKDIR /1128Asdm
+RUN npm install
+COPY ./1128Asdm
+Expose 8081ubuntu@ip-172-31-40-63:~$ cd 1128Asdm
